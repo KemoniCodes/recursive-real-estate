@@ -1,2 +1,11 @@
 * {
   box-sizing: border-box; }
+
+nav ul {
+  list-style: none;
+  display: flex; }
+  nav ul li {
+    padding: 8px; }
+  nav ul span.auth {
+    display: flex;
+    float: right; }

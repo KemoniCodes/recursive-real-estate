@@ -1,23 +1,40 @@
 import React from 'react';
-
-import './app.css';
+// import {
+//   BrowserRouter as Router,
+//   Switch,
+//   Route,
+//   Link
+// } from "react-router-dom";
+import './css/app.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+        <nav>
+          <ul>
+            <span className="logo">
+              <li>Recursive
+           Realty</li>
+            </span>
+
+            <li>Home</li>
+            <li>Properties</li>
+            <li>Agents</li>
+            <li>Contact</li>
+            <li>Search</li>
+
+            <span className="auth">
+              <li>Sign In</li>
+              <li>Register</li>
+              </span>
+          </ul>
+        </nav>
+
+        <h1>Recursive Real Estate</h1>
+
+
+
       </header>
     </div>
   );
