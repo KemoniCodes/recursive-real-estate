@@ -93,7 +93,6 @@ nav.main-nav {
     }
 }
 
-
 div.search-bar {
     text-align: center;
     padding: 24px;
@@ -117,5 +116,13 @@ div.search-bar {
         color: gainsboro;
         
         
+    }
+}
+
+div.property-slideshow {
+    img {
+        max-width: 100%;
+        height: auto;
+
     }
 }

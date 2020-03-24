@@ -6,6 +6,7 @@ import React from 'react';
 //   Link
 // } from "react-router-dom";
 import './css/app.css';
+// import Slideshow from './Slideshow';
 
 
 
@@ -47,11 +48,11 @@ function App() {
       </div>
 
       <div className="property-slideshow">
-        <img src="estate-1.jpg" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
-        <img src="" alt=""/>
+        <img src="/img/estate-1.jpg" alt="" />
+        <img src="/img/estate-2.jpg" alt="" />
+        <img src="/img/estate-3.jpg" alt="" />
+        <img src="/img/estate-4.jpg" alt="" />
+        <img src="/img/estate-5.jpg" alt="" />
 
       </div>
 
@@ -60,6 +61,8 @@ function App() {
 
 
     </div>
+
+  
   );
 }
 

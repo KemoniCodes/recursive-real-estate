@@ -75,3 +75,7 @@ div.search-bar {
     background-color: darkgoldenrod;
     height: 53.8px;
     color: gainsboro; }
+
+div.property-slideshow img {
+  max-width: 100%;
+  height: auto; }
