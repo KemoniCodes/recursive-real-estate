@@ -78,4 +78,9 @@ div.search-bar {
 
 div.property-slideshow img {
   max-width: 100%;
-  height: auto; }
+  height: 100vh auto;
+  position: relative;
+  width: 100vw;
+  margin: 0 auto;
+  overflow: hidden;
+  height: 1052.72px; }

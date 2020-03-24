@@ -5,8 +5,14 @@ import React from 'react';
 //   Route,
 //   Link
 // } from "react-router-dom";
-import './css/app.css';
-// import Slideshow from './Slideshow';
+
+import './scss/app.scss';
+import Slideshow from './components/Slideshow'
+
+
+
+
+
 
 
 
@@ -46,23 +52,11 @@ function App() {
         <input type="text" name="search" className="search" />
         <i class="fas fa-search"></i>
       </div>
-
-      <div className="property-slideshow">
-        <img src="/img/estate-1.jpg" alt="" />
-        <img src="/img/estate-2.jpg" alt="" />
-        <img src="/img/estate-3.jpg" alt="" />
-        <img src="/img/estate-4.jpg" alt="" />
-        <img src="/img/estate-5.jpg" alt="" />
-
-      </div>
-
-
-
-
+      <Slideshow />
 
     </div>
 
-  
+
   );
 }
 
