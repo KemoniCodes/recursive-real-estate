@@ -47,7 +47,12 @@ function App() {
       </div>
 
       <div className="property-slideshow">
-        
+        <img src="estate-1.jpg" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+        <img src="" alt=""/>
+
       </div>
 
 
