@@ -23,7 +23,6 @@ class Interiors extends React.Component {
                         infinite
                         arrows
                     >
-
                         <img src="/img/interior-1.jpg" alt="" />
                       
                         <img src="/img/interior-8.jpg" alt="" />

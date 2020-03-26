@@ -18,10 +18,10 @@ function App() {
           <ul>
             <li><h4>Contact Us</h4></li>
             <li>(555)-555-5555</li>
-            <li><i class="fab fa-linkedin"></i></li>
-            <li><i class="fab fa-facebook-square"></i></li>
-            <li><i class="fab fa-twitter-square"></i></li>
-            <li><i class="fab fa-instagram"></i></li>
+            <li><i className="fab fa-linkedin"></i></li>
+            <li><i className="fab fa-facebook-square"></i></li>
+            <li><i className="fab fa-twitter-square"></i></li>
+            <li><i className="fab fa-instagram"></i></li>
           </ul>
         </nav>
         <h1>Recursive Real Estate</h1>
@@ -34,7 +34,7 @@ function App() {
             <li>Contact</li>
 
             <div className="auth">
-              <li>Sign In <i class="fas fa-chevron-down"></i></li>
+              <li>Sign In <i className="fas fa-chevron-down"></i></li>
               <li>Register</li>
             </div>
           </ul>
