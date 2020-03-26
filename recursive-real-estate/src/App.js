@@ -1,15 +1,9 @@
 import React from 'react';
-// import {
-//   BrowserRouter as Router,
-//   Switch,
-//   Route,
-//   Link
-// } from "react-router-dom";
-
 import './scss/app.scss';
-import Slideshow from './components/Slideshow'
-
-
+import Slideshow from './components/Slideshow';
+import Footer from './components/Footer';
+import Interiors from './components/Interiors';
+import Destinantions from './components/Destinations';
 
 
 
@@ -49,12 +43,19 @@ function App() {
       </header>
 
       <div className="search-bar">
-        <input type="text" name="search" className="search" />
+        <input type="text" name="search" className="search" placeholder="Search by city, county, or postal code" />
         <i class="fas fa-search"></i>
       </div>
+
       <Slideshow />
 
-    </div>
+      <Destinantions />
+
+      <Interiors />
+
+      <Footer />
+
+    </div >
 
 
   );

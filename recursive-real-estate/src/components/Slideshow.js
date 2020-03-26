@@ -14,10 +14,12 @@ class Slideshow extends React.Component {
     return (
       <div className="property-slideshow">
         <Carousel
+          arrows
           dots
           infinite
           autoPlay={3000}
-          animationSpeed={2000}>
+          animationSpeed={2000}
+        >
 
           <img src="/img/estate-1.jpg" alt="" />
           <img src="/img/estate-2.jpg" alt="" />
@@ -26,8 +28,8 @@ class Slideshow extends React.Component {
           <img src="/img/estate-5.jpg" alt="" />
 
         </Carousel>
-      </div>
 
+      </div>
 
     )
 
