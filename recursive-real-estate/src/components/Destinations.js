@@ -78,9 +78,8 @@ class Destinations extends React.Component {
                                 </div>
                                 <div className="caption">
                                     <h3>WINTER WONDERLAND EXTRAVAGANZA'S</h3>
-                                    <p>Hit the slopes in high style with our hand-selected collection of luxury winter-ready retreats from Aspen to Whistler.
-                                    
-                                    With our selection of lavish winter-ready retreats, you can be
+                                    <p>
+                                    With our selection of lavish winter-ready retreats, you can experience all of your snow needs in style! Come home to a cozy evening in a spacious, modern, cabin safe-haven.
                                     </p>
                                 </div>
                             </div>
@@ -92,8 +91,10 @@ class Destinations extends React.Component {
                                     <h2>JAMAICA</h2>
                                 </div>
                                 <div className="caption">
-                                    <h3>DISCOVER THE WEST COAST</h3>
-                                    <p>Nobody does luxury quite like L.A. From Med-inspired mansions in the Hollywood Hills to coastal castles on the sands of Malibu, your California dream vacation rental awaits.</p>
+                                    <h3>ESCAPE TO UNFORGETTABLE SIGHTS</h3>
+                                    <p>
+                                    Find your happiness in Jamaica's effervescent warmth accompanied with beautiful views of the ocean. Our highly sought after villas and homes will make your island fantasies a reality!
+                                    </p>
                                 </div>
                             </div>
 

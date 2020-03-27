@@ -1,5 +1,11 @@
 import React from 'react';
+
+// import { Switch, Route } from 'react-router-dom'
 import './scss/app.scss';
+import ContactNav from './components/ContactNav'
+import Main from './components/Main'
+import MainNav from './components/MainNav'
+import SearchBar from './components/SearchBar';
 import Slideshow from './components/Slideshow';
 import Footer from './components/Footer';
 import Interiors from './components/Interiors';
@@ -10,42 +16,17 @@ import Destinantions from './components/Destinations';
 
 
 
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <nav className="contact-nav">
-          <ul>
-            <li><h4>Contact Us</h4></li>
-            <li>(555)-555-5555</li>
-            <li><i className="fab fa-linkedin"></i></li>
-            <li><i className="fab fa-facebook-square"></i></li>
-            <li><i className="fab fa-twitter-square"></i></li>
-            <li><i className="fab fa-instagram"></i></li>
-          </ul>
-        </nav>
-        <h1>Recursive Real Estate</h1>
-        <h3>International Luxury Realty</h3>
-        <nav className="main-nav">
-          <ul>
-            <li>Home</li>
-            <li>Properties</li>
-            <li>Agents</li>
-            <li>Contact</li>
+      <ContactNav />
+      
+      <Main />
+      
+      <MainNav />
 
-            <div className="auth">
-              <li>Sign In <i className="fas fa-chevron-down"></i></li>
-              <li>Register</li>
-            </div>
-          </ul>
-        </nav>
-
-      </header>
-
-      <div className="search-bar">
-        <input type="text" name="search" className="search" placeholder="Search by city, county, or postal code" />
-        <i class="fas fa-search"></i>
-      </div>
+      <SearchBar />
 
       <Slideshow />
 

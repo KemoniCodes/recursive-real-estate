@@ -77,9 +77,10 @@ nav.main-nav {
 
 
         li {
-            padding: 16px;
+            padding: 8px;
             transition: transform .3s;
             font-family: 'Source Serif Pro', serif;
+            
 
         }
 
@@ -91,10 +92,28 @@ nav.main-nav {
 
             
         }
+
+        a {
+            font-family: 'Source Serif Pro', serif;
+            text-decoration: none;
+            color: black;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration-color:darkgoldenrod;
+        }
+
+        a:visited {
+            text-decoration: none;
+            color: black;
+            text-decoration-color:darkgoldenrod;
+
+        }
        
         div.auth {
             display: flex;
-            padding-left: 32px;
+            padding-left: 24px;
         }
         
     }
@@ -191,6 +210,8 @@ div.row {
         height: 100vh;
         width: 50vw;
         background-color: gainsboro;
+        margin-left: 24px;
+
         
 
         h2 {
@@ -216,6 +237,8 @@ div.row {
     div.destination-pics {
         width: 50vw;
         height: 100vh;
+        margin-left: 16px;
+        margin-right: 16px;
     }
 
     img {
@@ -302,16 +325,21 @@ div.caption {
     
 }
 
+
+
+
+
+
 // INTERIORS SCSS
 
 div.title {
     h2 {
         font-family: 'Source Serif Pro', serif;
-        font-size: 1.8rem;
+        font-size: 2.3rem;
         text-decoration: darkgoldenrod overline;
         margin-bottom: 0px;
         text-align: center;
-        margin-top: 48px;
+        margin-top: 56px;
         margin-bottom: 24px;
         font-weight: 600;
 
@@ -334,7 +362,7 @@ div.featured-interiors {
     display: flex;
     flex-direction: row;
     // margin: 40px;
-    margin-bottom: 56px;
+    margin-bottom: 64px;
 
     img {
         height: 40vh;
