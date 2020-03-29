@@ -1,4 +1,6 @@
 import React from 'react'
+import '../scss/interior.scss'
+
 // eslint-disable-next-line 
 import Carousel from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';

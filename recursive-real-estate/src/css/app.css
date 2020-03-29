@@ -21,7 +21,8 @@ nav.contact-nav {
       font-weight: 400;
       margin: 0px; }
     nav.contact-nav ul li {
-      transition: transform .3s; }
+      transition: transform .3s;
+      font-family: 'Source Serif Pro', serif; }
     nav.contact-nav ul li:hover {
       cursor: pointer;
       transform: scale(1.3); }
@@ -32,6 +33,10 @@ h1 {
   font-size: 4rem;
   margin-bottom: 0px;
   cursor: pointer; }
+  h1 a {
+    font-family: 'Source Serif Pro', serif;
+    text-decoration: none;
+    color: black; }
 
 h3 {
   text-align: center;
@@ -99,145 +104,3 @@ div.search-bar {
     height: 53.8px;
     color: gainsboro;
     cursor: pointer; }
-
-div.property-slideshow {
-  margin: 0px 16px; }
-  div.property-slideshow img {
-    max-width: 100%;
-    height: 100vh auto;
-    position: relative;
-    width: 100vw;
-    margin: 0px;
-    overflow: hidden;
-    height: 1052.72px; }
-
-div.BrainhubCarousel {
-  height: 70vh; }
-  div.BrainhubCarousel button.BrainhubCarousel__arrows {
-    background-color: darkgoldenrod;
-    opacity: .7; }
-  div.BrainhubCarousel .BrainhubCarousel__arrows:hover:enabled {
-    background-color: darkgoldenrod;
-    opacity: 1; }
-
-div.row {
-  height: 100vh;
-  width: 100vw;
-  display: flex;
-  margin-top: 32px; }
-  div.row div.destination-title {
-    height: 100vh;
-    width: 50vw;
-    background-color: gainsboro;
-    margin-left: 24px; }
-    div.row div.destination-title h2 {
-      font-family: 'Source Serif Pro', serif;
-      text-decoration: darkgoldenrod overline;
-      font-size: 2.3rem;
-      font-weight: 600;
-      text-align: center;
-      padding: 128px;
-      padding-top: 296px; }
-  div.row div.BrainhubCarousel.pics {
-    height: 100vh;
-    width: 100vh; }
-  div.row div.destination-pics {
-    width: 50vw;
-    height: 100vh;
-    margin-left: 16px;
-    margin-right: 16px; }
-  div.row img {
-    height: 100vh;
-    width: 100vw;
-    width: 636px;
-    overflow: hidden;
-    padding: 8px; }
-
-div.row div.BrainhubCarousel.pics {
-  height: 100vh;
-  width: 50vw; }
-
-li.BrainhubCarouselItem div.destination-slide {
-  overflow: hidden;
-  width: 50vw; }
-
-div.destination-name {
-  overflow: hidden;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); }
-  div.destination-name h2 {
-    padding-left: 40px;
-    padding-bottom: 180px;
-    color: whitesmoke;
-    font-weight: 500;
-    font-size: 2rem;
-    letter-spacing: 4px;
-    opacity: 1;
-    text-decoration: overline;
-    text-decoration-color: #062d5e;
-    text-decoration-style: 2px; }
-  div.destination-name h2#zealand {
-    padding: 0px 0px 180px 0px; }
-
-div.caption {
-  height: 50vh;
-  margin-top: 8px;
-  border: solid 1px darkgoldenrod;
-  border-radius: 16px;
-  text-align: center;
-  padding: 8px; }
-  div.caption h3 {
-    color: black;
-    font-weight: 200;
-    font-size: 1.2rem;
-    letter-spacing: 2px;
-    opacity: .8;
-    margin-bottom: 16px;
-    font-style: normal;
-    padding-top: 20px; }
-  div.caption p {
-    letter-spacing: 0px;
-    font-size: 1rem;
-    line-height: 30px; }
-
-div.title h2 {
-  font-family: 'Source Serif Pro', serif;
-  font-size: 2.3rem;
-  text-decoration: darkgoldenrod overline;
-  margin-bottom: 0px;
-  text-align: center;
-  margin-top: 56px;
-  margin-bottom: 24px;
-  font-weight: 600; }
-
-div.BrainhubCarousel.interiors {
-  width: 100vw;
-  height: 20vw; }
-  div.BrainhubCarousel.interiors button.BrainhubCarousel__arrows {
-    background-color: darkgoldenrod; }
-
-div.featured-interiors {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 64px; }
-  div.featured-interiors img {
-    height: 40vh;
-    width: 30vw;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: transform .2s; }
-  div.featured-interiors img:hover {
-    transform: scale(1.02); }
-
-footer {
-  background-color: #062d5e;
-  color: white; }
-  footer p {
-    margin: 0px;
-    font-family: 'Noto Serif', serif;
-    text-align: center;
-    padding: 16px;
-    font-size: 12px;
-    text-transform: uppercase; }

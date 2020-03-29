@@ -1,4 +1,5 @@
 import React from 'react';
+import '../scss/slideshow.scss'
 // eslint-disable-next-line
 import Carousel, { Dots } from '@brainhubeu/react-carousel';
 import '@brainhubeu/react-carousel/lib/style.css';
