@@ -1,12 +1,10 @@
 import React from 'react'
+import '../scss/property-page.scss'
 import { Link } from 'react-router-dom'
 import ContactNav from '../components/ContactNav'
 import MainNav from '../components/MainNav'
 import SearchBar from '../components/SearchBar'
 import Footer from '../components/Footer'
-
-
-
 
 
 class Properties extends React.Component {
