@@ -26,6 +26,10 @@ nav.contact-nav {
     nav.contact-nav ul li:hover {
       cursor: pointer;
       transform: scale(1.3); }
+    nav.contact-nav ul a {
+      color: #062d5e;
+      text-decoration: none;
+      font-family: 'Source Serif Pro', serif; }
 
 h1 {
   text-align: center;

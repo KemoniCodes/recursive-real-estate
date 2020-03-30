@@ -19,9 +19,7 @@ class Home extends React.Component {
                 <div>
                     <h1><Link to='/'>Recursive Real Estate</Link></h1>
                     <h3>International Luxury Realty</h3>
-
                 </div>
-
 
                 <MainNav />
 

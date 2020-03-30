@@ -1,12 +1,12 @@
-import React, { Component } from 'react'
-
+import React from 'react'
 import { Link } from 'react-router-dom'
+import app from "../firebase.js";
 
 
 
 
-class MainNav extends Component {
-    render() {
+
+const MainNav = () => {
         return (
             
                 <div className="main-nav">
@@ -20,9 +20,13 @@ class MainNav extends Component {
                                 <li><Link to='/Contact'>Contact</Link></li>
 
                                 <div className="auth">
-                                    <li><Link to='/Sign In'>Sign In</Link></li>
+                                    <li><Link to='/SignIn'>Sign In</Link></li>
                                     <li><Link to='/Register'>Register</Link></li>
+                                    <li><Link to='/SignIn'  onClick={() => app.auth().signOut()}>Log Out</Link></li>
+
                                 </div>
+
+            
                             </ul>
 
                         </nav>
@@ -35,7 +39,7 @@ class MainNav extends Component {
                 </div >
                 
         )
-    }
+    
 
 }
 
