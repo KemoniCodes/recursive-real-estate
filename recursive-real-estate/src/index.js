@@ -16,10 +16,6 @@ import PrivateRoute from "./components/PrivateRoute";
 
 
 
-
-
-
-
 ReactDOM.render(
   <AuthProvider>
     <BrowserRouter>

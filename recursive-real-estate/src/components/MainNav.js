@@ -23,7 +23,6 @@ const MainNav = () => {
                                     <li><Link to='/SignIn'>Sign In</Link></li>
                                     <li><Link to='/Register'>Register</Link></li>
                                     <li><Link to='/SignIn'  onClick={() => app.auth().signOut()}>Log Out</Link></li>
-
                                 </div>
 
             

@@ -1,4 +1,5 @@
 import React, { useCallback } from "react";
+import '../scss/register-page.scss'
 import { withRouter } from "react-router";
 import app from "../firebase.js";
 
@@ -17,7 +18,7 @@ const Register = ({ history }) => {
   }, [history]);
 
   return (
-    <div>
+      <div className="register">
       <h1>Register</h1>
       <form onSubmit={handleSignUp}>
         <label>
