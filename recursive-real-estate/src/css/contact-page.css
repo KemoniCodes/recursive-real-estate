@@ -85,7 +85,8 @@ div.contact-page {
             border: 1px solid #062d5e; }
           div.contact-page div.row div.contact-info form.contact-form div.input-block textarea {
             border-radius: 8px;
-            outline: none; }
+            outline: none;
+            border: 1px solid #062d5e; }
           div.contact-page div.row div.contact-info form.contact-form div.input-block.textarea {
             display: grid;
             outline: none;

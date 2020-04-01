@@ -1,5 +1,7 @@
 {
   "name": "recursive-real-estate",
+  "main": "server.js",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -9,16 +11,24 @@
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
     "body-parser": "^1.19.0",
+    "express": "^4.17.1",
     "firebase": "^7.13.1",
+    "install": "^0.13.0",
+    "mongoose": "^5.9.7",
     "node-sass": "^4.13.1",
+    "npm": "^6.14.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.4.1",
-    "react-use-auth": "^0.5.3"
+    "react-use-auth": "^0.5.3",
+    "serve": "^11.3.0",
+    "yarn": "^1.22.4"
   },
   "scripts": {
     "start": "react-scripts start",
+    "node": "node server.js",
+    "server": "nodemon server.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
@@ -39,5 +49,8 @@
       "last 1 safari version"
     ]
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "concurrently": "^5.1.0",
+    "nodemon": "^2.0.2"
+  }
 }
