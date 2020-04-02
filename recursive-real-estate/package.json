@@ -1,7 +1,7 @@
 {
   "name": "recursive-real-estate",
   "main": "server.js",
-  "homepage": "https://recursive-real-estate.netlify.com/",
+  "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
