@@ -1,6 +1,6 @@
 {
   "name": "recursive-real-estate",
-  "main": "server.js",
+  "main": "index.js",
   "homepage": ".",
   "version": "0.1.0",
   "private": true,

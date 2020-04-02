@@ -17,8 +17,10 @@ import PrivateRoute from "./components/PrivateRoute";
 
 
 ReactDOM.render(
+
   <AuthProvider>
     <BrowserRouter>
+
       <Switch >
         <PrivateRoute exact path={['/home', '/']} component={Home} />
         <Route exact path={['/home', '/']} component={Home} />
