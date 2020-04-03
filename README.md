@@ -1,4 +1,4 @@
 # recursive-real-estate
-Preview a demo of this application here,
+Having difficulty deploying the application currently. So enjoy this gif demo!
 
 ![](recursive.gif)
