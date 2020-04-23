@@ -25,3 +25,9 @@ yarn-error.log*
 
 serviceWorker.js
 setupTests.js
+
+__pycache__
+flask_session
+env
+[env]
+
