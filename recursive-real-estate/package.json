@@ -80,7 +80,7 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "start": "node scripts/start.js",
+    "start": "node scripts start.js",
     "node": "node server.js",
     "server": "nodemon server.js",
     "build": "node scripts/build.js",
