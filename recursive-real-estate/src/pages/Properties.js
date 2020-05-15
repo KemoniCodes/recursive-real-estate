@@ -29,7 +29,7 @@ class Properties extends React.Component {
                             <p className="location">LOS HILLS, NZ 44455</p>
                             <ul>
                                 <li className="price">$50,000</li>
-                                  <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 5,000 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 5</li>
                                     <li><i class="fas fa-bath"></i>4</li>
@@ -45,7 +45,7 @@ class Properties extends React.Component {
                             <p className="location">LAS BILLETAS, MX 244356 </p>
                             <ul>
                                 <li className="price"> $200,220</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 16,200 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 8</li>
                                     <li><i class="fas fa-bath"></i>10</li>
@@ -61,7 +61,7 @@ class Properties extends React.Component {
                             <p className="location">NEW DUBAI, DXB 335669</p>
                             <ul>
                                 <li className="price">$52,5000</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 11,749 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 8</li>
                                     <li><i class="fas fa-bath"></i>9</li>
@@ -77,7 +77,7 @@ class Properties extends React.Component {
                             <p className="location">LITTLE ISLAND, JM 876</p>
                             <ul>
                                 <li className="price"> $400,320</li>
-                                  <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 20,000 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 9</li>
                                     <li><i class="fas fa-bath"></i>10</li>
@@ -93,7 +93,7 @@ class Properties extends React.Component {
                             <p className="location">MOSCOW, RUS 4567</p>
                             <ul>
                                 <li className="price">  $429,312</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 28,720 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 8</li>
                                     <li><i class="fas fa-bath"></i>10</li>
@@ -109,7 +109,7 @@ class Properties extends React.Component {
                             <p className="location">LITTLE SPAIN, FR</p>
                             <ul>
                                 <li className="price"> $535,678,000</li>
-                                  <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 81,000 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 15</li>
                                     <li><i class="fas fa-bath"></i>14</li>
@@ -141,7 +141,7 @@ class Properties extends React.Component {
                             <p className="location">RED TOWN, GL</p>
                             <ul>
                                 <li className="price"> $284,590</li>
-                              <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 19,430 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 9</li>
                                     <li><i class="fas fa-bath"></i>11</li>
@@ -157,7 +157,7 @@ class Properties extends React.Component {
                             <p className="location">BEACH DUNES, IB</p>
                             <ul>
                                 <li className="price"> $125,764</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 17,630 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 7</li>
                                     <li><i class="fas fa-bath"></i>10</li>
@@ -173,7 +173,7 @@ class Properties extends React.Component {
                             <p className="location">MALIBU, CA</p>
                             <ul>
                                 <li className="price"> $333,333</li>
-                                  <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 25,333sq ft</li>
                                     <li><i class="fas fa-bed"></i> 8</li>
                                     <li><i class="fas fa-bath"></i>9</li>
@@ -189,7 +189,7 @@ class Properties extends React.Component {
                             <p className="location">LONDON, UK</p>
                             <ul>
                                 <li className="price"> $500,545,33</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 505,000 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 14</li>
                                     <li><i class="fas fa-bath"></i>18</li>
@@ -205,7 +205,7 @@ class Properties extends React.Component {
                             <p className="location">MILAN,ITLY</p>
                             <ul>
                                 <li className="price"> $734,521,000</li>
-                                  <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 10,000,234 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 20</li>
                                     <li><i class="fas fa-bath"></i>28</li>
@@ -221,7 +221,7 @@ class Properties extends React.Component {
                             <p className="location">SUNNY, HWI</p>
                             <ul>
                                 <li className="price"> $32,333</li>
-                                 <div className="details">
+                                <div className="details">
                                     <li><i class="fas fa-home"></i> 25,700 sq ft</li>
                                     <li><i class="fas fa-bed"></i> 10</li>
                                     <li><i class="fas fa-bath"></i>13</li>

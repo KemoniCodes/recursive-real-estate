@@ -1,7 +1,7 @@
 {
   "name": "recursive-real-estate",
   "main": "index.js",
-  "homepage": ".",
+  "homepage": "/build",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,7 +12,7 @@
     "@testing-library/user-event": "^7.2.1",
     "body-parser": "^1.19.0",
     "express": "^4.17.1",
-    "firebase": "^7.13.1",
+    "firebase": "^7.14.2",
     "firebase-tools": "^8.0.1",
     "install": "^0.13.0",
     "mongoose": "^5.9.7",
@@ -53,7 +53,13 @@
     ]
   },
   "devDependencies": {
+    "@babel/preset-env": "^7.9.5",
+    "@babel/preset-react": "^7.9.4",
     "concurrently": "^5.1.0",
     "nodemon": "^2.0.2"
-  }
+  },
+  "presets": [
+    "@babel/preset-env",
+    "@babel/preset-react"
+  ]
 }

@@ -5,8 +5,10 @@ class SearchBar extends Component {
     render() {
         return (
             <div className="search-bar">
-                <input type="text" name="search" className="search" placeholder="Search by city, county, or postal code" />
-                <i class="fas fa-search"></i>
+                <form action="http://localhost:5000/results" method="GET">
+                    <input type="text" name="results" className="search" placeholder="Search by city, county, or postal code" />
+                    <button type="submit"><i class="fas fa-search"></i></button>
+                </form>
             </div>
         )
     }
