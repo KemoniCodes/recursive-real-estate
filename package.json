@@ -2,10 +2,10 @@
   "name": "real-estate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.html",
+  "main": "index.js",
   "scripts": {
-    "start": "node /server/server.js",
-    "node": "node ../server/server.js",
+    "start": "node server/server.js",
+    "node": "node server/server.js",
     "eject": "react-scripts eject"
   },
   "repository": {
