@@ -87,6 +87,16 @@
     "test": "node scripts/test.js",
     "sass": "node-sass -w src/scss -o src/css -r"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KemoniCodes/recursive-real-estate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KemoniCodes/recursive-real-estate/issues"
+  },
   "eslintConfig": {
     "extends": "react-app"
   },
