@@ -3,7 +3,6 @@
   "main": "index.js",
   "homepage": "/static/react",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@auth0/auth0-spa-js": "^1.6.5",
     "@babel/core": "7.9.0",
@@ -86,16 +85,6 @@
     "build": "node scripts/build.js",
     "test": "node scripts/test.js",
     "sass": "node-sass -w src/scss -o src/css -r"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/KemoniCodes/recursive-real-estate.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/KemoniCodes/recursive-real-estate/issues"
   },
   "eslintConfig": {
     "extends": "react-app"

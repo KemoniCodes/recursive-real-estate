@@ -8,7 +8,16 @@
     "node": "node server/server.js",
     "eject": "react-scripts eject"
   },
-
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KemoniCodes/recursive-real-estate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KemoniCodes/recursive-real-estate/issues"
+  },
   "homepage": ".",
   "devDependencies": {
     "concurrently": "^5.1.0",
