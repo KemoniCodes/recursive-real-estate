@@ -1,7 +1,7 @@
 {
   "name": "recursive-real-estate",
   "main": "index.js",
-  "homepage": "../server",
+  "homepage": "/static/react",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -80,7 +80,7 @@
     "yarn": "^1.22.4"
   },
   "scripts": {
-    "start": "node ../server/server.js",
+    "start": "react-scripts start",
     "node": "node ../server/server.js",
     "server": "nodemon server.js",
     "build": "node scripts/build.js",
