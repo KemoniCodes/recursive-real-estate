@@ -2,9 +2,10 @@
   "name": "real-estate",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "start": "node /server/server.js",
+    "node": "node ../server/server.js",
     "eject": "react-scripts eject"
   },
   "repository": {
@@ -17,7 +18,7 @@
   "bugs": {
     "url": "https://github.com/KemoniCodes/recursive-real-estate/issues"
   },
-  "homepage": "https://github.com/KemoniCodes/recursive-real-estate#readme",
+  "homepage": ".",
   "devDependencies": {
     "concurrently": "^5.1.0",
     "nodemon": "^2.0.2"
